@@ -3,6 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>My First Page</title>
+
+    <style>
+        /* Styling list items with nth-child to alternate background colors */
+        ol li:nth-child(odd),
+        ul li:nth-child(odd) {
+            background-color: #f0f0f0;
+        }
+
+        ol li:nth-child(even),
+        ul li:nth-child(even) {
+            background-color: #d0e0f0;
+        }
+
+        /* Adding hover effect to the hyperlink */
+        a:hover {
+            color: red;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+
+
+
+
+
+
+
 </head>
 <body>
     <h1>All about me</h1>>
@@ -25,6 +52,9 @@
         <li>white</li>
     </Ul>
 
+    <!-- Link to favorite site with hover effect -->
+    <h2>My Favorite Website</h2>
+    <a href="https://open.spotify.com/" target="_blank">Visit my favorite site</a>
 
 </body>
 </html>
